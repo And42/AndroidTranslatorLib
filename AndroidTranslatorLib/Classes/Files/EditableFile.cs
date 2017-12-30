@@ -57,6 +57,28 @@ namespace AndroidTranslator.Classes.Files
                 SaveChanges();
         }
 
+        protected bool SetProperty<T>(ref T storage, T value, string propertyName)
+        {
+            if (EqualityComparer<T>.Default.Equals(storage, value))
+                return false;
+
+            storage = value;
+            OnPropertyChanged(propertyName);
+
+            return true;
+        }
+
+        protected bool SetPropertyRef<T>(ref T storage, T value, string propertyName) where T : class
+        {
+            if (ReferenceEquals(storage, value))
+                return false;
+
+            storage = value;
+            OnPropertyChanged(propertyName);
+
+            return true;
+        }
+
         public event PropertyChangedEventHandler PropertyChanged;
 
         [NotifyPropertyChangedInvocator]

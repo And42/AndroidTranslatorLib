@@ -26,8 +26,17 @@ namespace AndroidTranslator.Classes.Files
             };
 
         private readonly List<string> _xmlRules;
-
         private XmlDocument _xDoc;
+
+        /// <summary>
+        /// Загружать ли текстовые строки
+        /// </summary>
+        public bool LoadTextStrings { get; set; }
+
+        /// <summary>
+        /// Возвращает статус коллекции
+        /// </summary>
+        public override bool IsChanged => Details?.Any(str => str.IsChanged) == true;
 
         /// <summary>
         /// Список строк в файле
@@ -60,11 +69,6 @@ namespace AndroidTranslator.Classes.Files
 
             LoadStrings();
         }
-
-        /// <summary>
-        /// Загружать ли текстовые строки
-        /// </summary>
-        public bool LoadTextStrings { get; set; }
 
         /// <summary>
         /// Загружает строки из файла на диске
@@ -135,11 +139,6 @@ namespace AndroidTranslator.Classes.Files
                     )
                 );
         }
-
-        /// <summary>
-        /// Возвращает статус коллекции
-        /// </summary>
-        public override bool IsChanged => Details?.Any(str => str.IsChanged) == true;
 
         /// <summary>
         /// Сохраняет изменения в файле на диск

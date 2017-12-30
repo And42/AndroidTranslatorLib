@@ -37,7 +37,9 @@ namespace AndroidTranslator.Classes.Files
         {
             FileName = fileName;
 
-            if (File.Exists(FileName) && !string.IsNullOrEmpty(File.ReadAllText(FileName)))
+            var fileInfo = new FileInfo(fileName);
+
+            if (fileInfo.Exists && fileInfo.Length != 0)
                 LoadStrings();
             else 
                 _xdoc = XDocument.Parse(InitXmlText);

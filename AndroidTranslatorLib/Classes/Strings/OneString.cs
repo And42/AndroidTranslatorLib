@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using AndroidTranslator.Annotations;
 using AndroidTranslator.Interfaces.Strings;
 
 namespace AndroidTranslator.Classes.Strings
@@ -32,7 +33,7 @@ namespace AndroidTranslator.Classes.Strings
                 if (IsOldTextReadOnly)
                     throw new InvalidOperationException(nameof(NewText) + " is read only!");
 
-                SetProperty(ref _oldText, value, nameof(OldText)); 
+                SetOldText(value); 
             }
         }
         private string _oldText;
@@ -48,7 +49,7 @@ namespace AndroidTranslator.Classes.Strings
                 if (IsNewTextReadOnly)
                     throw new InvalidOperationException(nameof(NewText) + " is read only!");
 
-                SetProperty(ref _newText, value, nameof(NewText));
+                SetNewText(value);
             }
         }
         private string _newText;
@@ -74,14 +75,12 @@ namespace AndroidTranslator.Classes.Strings
 
         protected void SetOldText(string text)
         {
-            _oldText = text;
-            OnPropertyChanged(nameof(OldText));
+            SetProperty(ref _oldText, text, nameof(OldText));
         }
 
         protected void SetNewText(string text)
         {
-            _newText = text;
-            OnPropertyChanged(nameof(NewText));
+            SetProperty(ref _newText, text, nameof(NewText));
         }
 
         /// <summary>
@@ -97,6 +96,7 @@ namespace AndroidTranslator.Classes.Strings
 
         public event PropertyChangedEventHandler PropertyChanged;
 
+        [NotifyPropertyChangedInvocator]
         protected void OnPropertyChanged(string propertyName)
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
@@ -108,7 +108,6 @@ namespace AndroidTranslator.Classes.Strings
                 return false;
 
             storage = value;
-
             OnPropertyChanged(propertyName);
 
             return true;

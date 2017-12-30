@@ -7,11 +7,12 @@ namespace AndroidTranslator.Classes.Strings
     {
         public const string XmlNodeName = "string";
 
+        /// <inheritdoc />
         public override bool IsChanged => !string.IsNullOrEmpty(NewText);
 
         private readonly XmlNode _node;
 
-        public XmlString(XmlNode node): base(node.Attributes["name"].Value, node.InnerText)
+        public XmlString(XmlNode node) : base(node.Attributes["name"].Value, node.InnerText)
         {
             _node = node;
         }
