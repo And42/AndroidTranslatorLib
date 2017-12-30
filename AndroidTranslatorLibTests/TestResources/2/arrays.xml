@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="VoiceOptionsLayoutNames">
+        <item>Google речь в текст</item>
+        <item>Пользовательская речь в текст</item>
+    </string-array>
+    <string-array name="VoiceOptionsLayout">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="KeyboardLayoutNames">
+        <item>QWERTY (USA)</item>
+        <item>QWERTZ</item>
+        <item>AZERTY</item>
+        <item>CYRILLIC</item>
+        <item>ARABIC</item>
+        <item>HEBREW</item>
+    </string-array>
+    <string-array name="KeyboardLayoutKeys">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="SuggestionDictNames">
+        <item>QWERTY предложения</item>
+        <item>Префикс предложения</item>
+    </string-array>
+    <string-array name="SuggestionDictKeys">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="SuggestionKeyboardStyle">
+        <item>"Верхний регистр только
+(iPhone)"</item>
+        <item>"Верхний и нижний регистр
+(Android)"</item>
+    </string-array>
+    <string-array name="SuggestionKeyboardStyleKeys">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="KeyboardSkin">
+        <item>@string/preference_keyboard_android_easy_to_read_black</item>
+        <item>@string/preference_keyboard_android_default</item>
+        <item>@string/preference_keyboard_android_ocean</item>
+        <item>@string/preference_keyboard_android_forrest</item>
+        <item>@string/preference_keyboard_android_snow</item>
+        <item>@string/preference_keyboard_android_fire</item>
+        <item>@string/preference_keyboard_android_green_on_grey</item>
+        <item>@string/preference_keyboard_android_yellow_on_black</item>
+        <item>@string/preference_keyboard_android_pink_on_white</item>
+        <item>@string/preference_keyboard_android_neon_red</item>
+        <item>@string/preference_keyboard_android_neon_green</item>
+        <item>@string/preference_keyboard_android_neon_blue</item>
+        <item>@string/preference_keyboard_android_black_on_white</item>
+        <item>@string/preference_keyboard_android_white_on_black</item>
+        <item>@string/preference_keyboard_android_red_on_black</item>
+        <item>@string/preference_keyboard_android_blue_on_black</item>
+        <item>@string/preference_keyboard_android_easy_to_read</item>
+        <item>@string/preference_keyboard_android_easy_to_read_yellow</item>
+        <item>@string/preference_keyboard_android_voiceonly</item>
+    </string-array>
+    <string-array name="KeyboardSkinKeys">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+    </string-array>
+    <string-array name="keyboard_skin_id">
+        <item>keyboard_android_simple</item>
+    </string-array>
+    <string-array name="saNoOfMatches">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="voice_input_modes">
+        <item>На основной клавиатуре</item>
+        <item>На символьной клавиатуре</item>
+        <item>Выкл</item>
+    </string-array>
+    <string-array name="voice_input_modes_values">
+        <item>@string/voice_mode_main</item>
+        <item>@string/voice_mode_symbols</item>
+        <item>@string/voice_mode_off</item>
+    </string-array>
+    <string-array name="voice_input_modes_summary">
+        <item>Микрофон на основной клавиатуре</item>
+        <item>Микрофон на символьной клавиатуре</item>
+        <item>Голосовой ввод отключена</item>
+    </string-array>
+</resources>

@@ -1,0 +1,610 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="keyboard_skin_id_default">preference_keyboard_android_easy_to_read_black</string>
+    <string name="Orientation">Портретная</string>
+    <string name="ime_name">Big Buttons Keyboard Beta</string>
+    <string name="preference_bb_setting_app">Big Buttons Keyboard Beta 4.0.1</string>
+    <string name="word_separators">" .,;:!?
+()[]*&amp;@{}/&amp;lt;&amp;gt;_+=|"</string>
+    <string name="label_go_key">Go</string>
+    <string name="label_next_key">Next</string>
+    <string name="label_send_key">Send</string>
+    <string name="settings_title">BigButtons Настройки</string>
+    <string name="settings_summary">Настройки BigButtons SoftKeyboard.</string>
+    <string name="SettingsKeyWordPrediction">Настройки предсказания слова</string>
+    <string name="SettingsTitleWordPrediction">Предсказание слова</string>
+    <string name="SettingsSummaryWordPrediction">Включение или отключение предсказания слова.</string>
+    <string name="SettingsKeyVibrationFeedback">Настройки виброотдачи</string>
+    <string name="SettingsTitleVibrationFeedback">Виброотдача</string>
+    <string name="SettingsSummaryVibrationFeedback">Виброотдача на кнопке нажатия</string>
+    <string name="CopyrightInfo" />
+    <string name="ApplicationInfo">"Big Buttons Keyboard Бета 4.0.1
+
+ U.S. Patented - нажми для информации о лицензировании.
+
+ Вопросы? bbbeta@chicagologic.com
+
+Перевод на русский:
+Alex Darkflame
+Darkflameproduction@gmail.com
+
+ 7 хороших вещей, чтобы узнать BB
+ ---------------------------------
+
+ 1) Запатентованная раскладка клавиатуры похожа на клавиатуре ПК -вы ее знаете и будете печатать на очень быстро. Чем больше вы отдыхаете, тем быстрее вы печатаете.
+
+ 2) Нажмите и удерживайте нажатой '?' для BB меню.
+
+ 3) Голос в текст: удерживайте клавишу ?12.
+
+ 4) Курсор (стрелка) экрана: удерживайте клавишу переключения или сдвиньте клавиатуру вправо.
+
+ 5) Числа и пунктуация экрана: нажмите клавишу ?12 или сдвиньте клавиатуры влево.
+
+ 6) Caps, Num и Alt lock режимы: Дважды щелкните клавишу Shift, 12 или ALT - загорится красный.
+
+ 7) Важно - при отправке текстового сообщения или эл.почты, смахните вверх/вниз в вашем списке контактов (или спрячте клавиатуру), чтобы увидеть больше контактов.
+
+
+ Прокрутите вниз для подробной инструкции.
+
+ Вопросы? bbd@chicagologic.com
+ ------------------------------------------
+
+
+ Вы можете просмотреть следующие инструкции по адресу:
+ www.BigButtonsKeyboard.com
+
+
+ BIG BUTTONS Keyboard Beta
+
+ 1) УСТАНОВКА
+ 2) НОВОЕ В ЭТОМ ОБНОВЛЕНИИ
+ 3) ОБЗОР
+ 4) ИНСТРУКЦИЯ И СОВЕТЫ
+ 5) СООБЩЕСТВО ИНВАЛИДОВ
+ 6) В ПЛАНАХ
+ 7) О Delta II MATRIX
+ 8) ЛИЦЕНЗИЯ DELTA II
+ 9) ПРАВА
+
+ В дальнейшем, «ВВ» относится к Big Buttons Keyboard Beta, \"Меню\" и \"Назад\" к кнопкам Меню и Назад на нижней части телефона, \"долгое нажатие\"- Нажмите и удерживайте в течение секунды.
+
+
+ 1) УСТАНОВКА
+
+ Нажмите иконку BB, затем нажмите \"Установка-Важное\" и выполните оба шага. Если телефон работает медленно после установки, пожалуйста, напишите нам по адресу bbd@chicagologic.com.
+
+
+ 2) НОВОЕ В ЭТОМ ОБНОВЛЕНИИ
+
+ - Добавлены кириллица, арабский и иврит (бета - без словарей.)
+
+ - Теперь вы можете выбрать два или более раскладок клавиатуры (QWERTY, кириллица, арабский, иврит и т.д.), а затем \"быстро переключать\" их во время набора текста с помощью долгого нажатия кнопки \"Свернуть клавиатуру\".
+
+  Предупреждение, если ваш телефон защищен паролем, отключить его перед переключением этих клавиатур или вы не сможете войти в свой телефон.
+
+ - Отдельные корректировки высоты клавиатуры для вертикального (портретного) и горизонтального (альбомного) режимов
+
+ - Предсказание слова исправлено для Twitter, Facebook, Instagram и т.д.
+
+ - Новые неоново-синий и неоново-зеленый темы. (\"Розовый на черном\" теперь \"неоново-красный\")
+
+ - Исправлена ​​scholar.google.com
+
+ - Больше альтернативных символов
+
+ 
+ 3) ОБЗОР
+
+ Просто начните набирать. BB не будет бороться с вами. Кнопки приятно большие и расположены в запатентованной разметке клавиатуры Delta II, что поможет быстро учиться и легко печатать. Мышечная память возьмет все на себя. Вы набираете быстрее, чем должны.
+
+ Приятный сюрприз - что происходит?
+
+ Вы испытываете самую передовую клавиатуру для смартфона в мире - Delta II
+
+
+ 4) ИНСТРУКЦИЯ И СОВЕТЫ
+
+ BB как клавиатура ПК - запатентованное расположение кнопок QWERTY-держит буквы в непосредственной близости, где вы привыкли видеть и тянуться за ними - \"Q\" в левом верхнем углу, \"M\" в правом нижнем углу, и т.д. . Это позволяет быстро освоить новое расположение.
+
+ Чем больше вы отдыхаете, тем быстрее вы печатаете.
+
+ Важный совет - при выборе контакт(ов) для электронной почты или текстового сообщения, скрывайте клавиатуру, чтобы увидеть больше контактов.
+
+ BB меню - нажмите сине-белую иконку BB, или удерживайте '?'.
+
+ Голос в текст (Android 2.2 и выше) - удерживайте кнопку ?12.
+
+ Примечание: быстро выбрать другой язык- тройное нажатие кнопки ?12.
+
+ Курсор на экране - удерживайте клавишу переключения или сдвиньте клавиатуру вправо.
+
+ Числа и пунктуации - нажмите клавишу ?12 или проведите пальцем по клавиатуре влево. На этом экране можно также нажать клавишу ALT для еще большей пунктуации и символов.
+
+ Для CAPS LOCK, дважды щелкните кнопку Shift, (свет на кнопке станет красным.)
+
+ Для NUMBER LOCK, дважды щелкните ?12 (свет на кнопке станет красным.)
+
+ Для ALT LOCK дважды щелкните кнопку ALT (свет на кнопке станет красным.)
+
+ Долгое нажатие на букву для альтернативных символов.
+
+ Выберите раскладку из QWERTY, кириллица, и т.д. Если вы выбираете больше одной удерживайте \"Свернуть Клавиатуру\" для переключения между ними в процессе набора.
+
+ Примечание: Арабский и Иврит - дважды щелкните кнопку Shift, для быстрого доступа к BB меню.
+
+ * Внимание * если ваш телефон защищен паролем, отключите его перед переключением на не-QWERTY или вы не сможете войти в свой телефон.
+
+ Вы можете отрегулировать высоту клавиатуры для портретного и ландшафтного режимов отдельно.
+
+ Чтобы скрыть клавиатуру, нажмите значок клавиатуры рядом с пробелом или сдвиньте вниз.
+
+ Авто Предложение - набрав два пробела подряд, или клавишу ввода, поставится точка.
+
+ Вы можете настроить вибрацию для нажатия кнопок.
+
+ Вы можете регулировать громкость звука для нажатия кнопок.
+
+
+ СОВЕТЫ
+
+ Выбирая контакт(ы) для электронной почты или текстового сообщения, скройте клавиатуру, чтобы увидеть больше контактов.
+
+ Чтобы переключиться на другую клавиатуру:
+
+ Android 2.x: долгое нажатие в поле ввода и нажмите \"Метод ввода\" в меню, которое всплывет.
+
+ Android 3.x Honeycomb: нажмите маленький значок клавиатуры в самом низу экрана, рядом с часами (не на значок клавиатуры, и выберите клавиатуру.
+
+ Android 4.x Ice Cream Sandwich и Jelly Bean: откройте меню вI верхней части экрана и нажмите \"Выбрать метод ввода\".
+
+ 
+ Если вы новичок в смартфонах, или использовал IPhone, изменените \"кнопку надписи\" с \"Android - верхний и нижний регистр\", на \"IPhone - только верхний регистр\". Это может помочь вам узнать новое расположение быстрее. Вы можете переключиться позже.
+
+ Чтобы ввести такие вещи, как \"im\" и \"I\", выключите предсказания слова.
+
+ Чтобы удалить фрагмент текста, выделить нужный текст, а затем нажмите клавишу возврата.
+
+ Некоторые Android телефоны имеют проблемы вертикального выравнивания со всеми клавиатурами, где касаясь выше на 10% от кнопки на самом деле вызывает кнопку выше. Пример - если, с любой клавиатуры, вы введете пробел, то можете получить 'N' вместо этого.
+
+
+ ПРЕДСКАЗАНИЕ СЛОВА
+
+ BB может предсказать и узнать новые слова и аббревиатуры, а также вы можете добавить свои собственные слова вручную в словар BB. BB использует свой собственный словарь отдельно от словаря Android и доступен из BB иконки.
+
+ Если вы хотите автоматически запоминать новые слова по мере их набора, включите опцию \"обучение словам\" в меню BB (рекомендуется.)
+
+ Удерживайте на любом слове в чтобы стереть его или уменьшить его приоритет. Слова, которые приходят с встроенного словаря телефона не могут быть стерты, но будут автоматически уменьшены в приоритете, так как вы ими не пользуетесь.
+
+ Другие языки - для других языков, кроме английского, включение \"обучение словам\" будет изучать новые слова при вводе их, а затем предлагать их как предсказания. Кроме того, нажав свою кнопку \"Меню\" в то время как вы на экране свой словарь можно вручную добавить такие слова, как \"I\" и \"im\", если вам нравится.
+
+ Вы можете вручную добавить короткие слова (например, \"АC\", \"im\", \"I\") на экране \"Свой словарь\" с помощью кнопки меню телефона. Слова менее 3 символов автоматически не запоминаются. Используйте кнопку вашего телефона Назад для выхода из экрана \"свой словарь\".
+
+ Слова с апострофами будет отображаться в первый или второй раз, когда вы их вводите. Кроме того, сокращения, как \"dont\" и \"im\" автоматически становятся \"don't\" и \"I'm\", если вы введете их без апострофа.
+
+ Вы можете щелкнуть вверх на линии вариантов , чтобы посмотреть больше слов. Помните, словарь ВВ доступен с помощью значка BB, и  тдельно от Android словаря.
+
+ 
+ 5) СООБЩЕСТВО ИНВАЛИДОВ
+
+ Зрение
+
+ Легко читаемый жирные темы включают в себя:
+
+ Легко читаемый # 1: белые буквы на черном
+ Легко читаемый # 2: черные буквы на белом
+ Легко читаемый # 3: черные буквы на желтом
+
+ Для получения дополнительной видимости, вы можете установить \"кнопку надписи\" на \"верхний регистр только\" (iPhone стиль) и / или увеличить \"высоту клавиатуры\"
+
+ 
+ Нервы, мышцы, конечности
+
+ Тема \"только голос\" предназначена для людей с дрожью. Она имеет четыре большие кнопки и льготные тарифы Повторите с помощью кнопок со стрелками и Backspace. Нажмите кнопку микрофона говорить. Нажмите и удерживайте нажатой кнопку микрофона (или проведите вниз), чтобы скрыть клавиатуру.
+
+ Для переключения между \"Голос только\" темы на другую тему, нажмите ваш BB значок и выберите \"Темы\" в меню.
+
+
+ Ваш вклад важен для нас:
+ напишите нам по адресу bbd@chicagologic.com
+
+ 
+ 6) В ПЛАНАХ
+
+ - Больше словарь, больше языков
+ - Emoji / смайлики
+
+
+ 
+ 7) ЛИЦЕНЗИЯ
+
+ Внимание: мобильные разработчики, производители, интеграторы - не заставляют разочарование, невероятно маленькие QWERTY клавиатур на ваших клиентов. Дайте им лучший макет мобильного клавиатуры в мире - доказанный превосходит версию для мобильных устройств клавиатура, предназначенная для людей - Дельта II
+
+ Delta II: Узнайте его через минуту - использовать его для жизни тм. - Delta II могут быть лицензированы для использования в смартфонах, пульты дистанционного управления ТВ и DVR, портативный медицинского оборудования, автомобилей, кабинах самолетов и т.д.
+
+ - Delta II совместим везде - сенсорные экраны, жесткие клавиатуры кнопки, предсказатели следующего слова, языки, проводя, стилус и т.д.
+
+ Связаться busdev@chicagologic.com
+
+
+ 8) о клавиатуре MATRIX DELTA II
+
+ Прыжки с парашютом дизайнеры оборудование рассмотреть рефлексы мышц памяти данные пользователя, чтобы их продукция соответствует, пользователь ошибок устойчивы, быстро учиться и быстро работать.
+
+ Чикаго Логика использует тот же рассмотрение мышцы памяти в создании Дельта II тм - удивительно быстрый и точный смартфон клавиатура с большими, легко читать кнопок, расположенных в волшебном макет, который узнал почти сразу.
+
+ Запатентованная Delta II тм изменение QWERTY призывы макет по своему рефлексов мышц памяти. Каждая буква в непосредственной близости от где вы уже выглядеть и протянуть к ней руку на вашем компьютере (QWERTY) и смартфонов клавиатуры.
+
+ Результат? Ваши рефлексы мышц памяти заставит вас учиться и типа на новой клавиатуре очень быстро.
+
+ Количество и пунктуационные кнопки также больше, быстрее и более надежными печатать.
+
+ Будь тянется за чрезвычайное ручки на парашюта, или достижение для кнопок на клавиатуре - вы хотите, чтобы ваши рефлексы мышц памяти работать с вами, а не против вас.
+
+ Delta II - узнать его в течение минуты, использовать его на всю жизнь.
+
+ Добро пожаловать в Большие кнопки клавиатуры
+для Android.
+
+
+ 9) ПРАВА
+
+ (С) 2009-2013 Чикаго Логика Инк
+
+ Макет \"Delta II\" изменение QWERTY-кнопка защищена патентами США 7216588, 7658562.
+
+ Большие кнопки клавиатуры и Большой Бета Кнопки клавиатуры являются товарными знаками Чикаго Logic Incorporated. Все права защищены.
+
+ Лицензионное соглашение конечного пользователя (EULA) для: Большие кнопки клавиатуры и Биг Beta Кнопки клавиатуры. ВАЖНО ПРОЧТИТЕ УСЛОВИЯ данного лицензионного соглашения, ПРЕЖДЕ ЧЕМ Продолжая это программа инсталляции: Настоящее лицензионное соглашение с конечным пользователем (EULA) является юридическим соглашением между вами (физическим или юридическим лицом) и Чикаго Логика Инкорпорейтед, для Программный продукт (ы) Чикаго Логика Инкорпорейтед определены выше, которые могут включать в себя связанные программные компоненты, носители и печатные материалы, и онлайн или электронную документацию (программный продукт). Устанавливая, копируя или иным образом используя ПРОГРАММНОГО ПРОДУКТА, Вы соглашаетесь быть связанными условиями настоящего Лицензионного договора. Настоящее лицензионное соглашение представляет собой полное соглашение относительно программы между вами и Чикаго Logic Incorporated, (именуемые лицензиаром), и это отменяет все ранее предложение, представления или понимания между сторонами. Если вы не согласны с условиями настоящего Лицензионного договора, не устанавливайте и не используйте ПРОГРАММНОГО ПРОДУКТА. Программный продукт защищен законами об авторском праве, международными соглашениями об авторских правах, и патентов, а также другими законами об интеллектуальной собственности и договоров. Программный продукт лицензируется, а не продается.
+
+ 1. ПРЕДОСТАВЛЕНИЕ ЛИЦЕНЗИИ
+
+ Программный продукт лицензируется как следующим образом:
+
+ (А) Установка и использование. Чикаго Логика Инкорпорейтед предоставляет вам право на установку и использование копий ПРОГРАММНОГО ПРОДУКТА на компьютере работает лицензионной копией операционной системы, для которых продукт программное обеспечение было разработано [например Android].
+
+ 2. ПРОЧИЕ ПРАВА И ОГРАНИЧЕНИЯ
+
+ (А) Обеспечение Уведомления об авторских правах. Вы не должны удалять или изменять любые авторские права или патенты, о любых и всех копий ПРОГРАММНОГО ПРОДУКТА.
+
+ (Б) Распределение. Вы не можете распространять копии ПРОГРАММНОГО ПРОДУКТА третьим лицам.
+
+ (В) Запрет на вскрытие технологии, декомпиляцию и разборки.
+
+ Вы не можете перепроектировать, декомпилировать или разбирать ПРОГРАММНОГО ПРОДУКТА, за исключением случаев и только в той степени, когда такие действия явно разрешены действующим законодательством, несмотря на данное ограничение.
+
+ (Г) Прокат. Вы не в аренду, лизинг или предоставлять ПРОГРАММНОГО ПРОДУКТА.
+
+ (Е) вспомогательные услуги. Чикаго Логика Инкорпорейтед может предоставить вам услуги по технической поддержке ПРОГРАММНОГО ПРОДУКТА (службы поддержки). Любой код дополнительное программное обеспечение, предоставляемое в рамках вспомогательных служб считается частью ПРОГРАММНОГО ПРОДУКТА и в соответствии с условиями и положениями настоящего Соглашения.
+
+ (Е) соответствии с действующим законодательством. Вы должны соблюдать все применимые законы, касающиеся использования ПРОГРАММНОГО ПРОДУКТА.
+
+ 3. ПРЕКРАЩЕНИЕ
+
+ Без ущерба для любых других прав, Чикаго Логика Инкорпорейтед может прекратить действие настоящего Соглашения, если вы не соблюдаете условий настоящего лицензионного соглашения. В таком случае вы должны уничтожить все копии ПРОГРАММНОГО ПРОДУКТА в вашем распоряжении.
+
+ 4. АВТОРСКОЕ ПРАВО
+
+ Все права собственности, в том числе, но не ограничиваясь авторскими правами, в и ПРОГРАММНОГО ПРОДУКТА и любые их копии принадлежат Чикаго Logic Incorporated, или ее поставщиков. Все права собственности и права на интеллектуальную собственность в и содержания, которые могут быть доступны через использование ПРОГРАММНОГО ПРОДУКТА является собственностью владельца соответствующего контента и могут быть защищены соответствующими авторских прав или других законов об интеллектуальной собственности и договоров. Настоящее лицензионное соглашение не предоставляет вам никаких прав на использование такого содержания. Все права, не предоставленные зарезервированы Чикаго Logic Incorporated.
+
+ 5. НЕТ ГАРАНТИЙ
+
+ Чикаго Логика Инкорпорейтед явно отказывается от любой гарантии на ПРОГРАММНОГО ПРОДУКТА. Программный продукт предоставляется как есть без каких-либо явно выраженных или подразумеваемых гарантий любого рода, включая, но не ограничиваясь этим, любые гарантии товарной пригодности, несут заказчики, или пригодности определенной цели. Чикаго Логика Инкорпорейтед не гарантирует и не несет ответственности за точность или полноту любой информации, текста, графики, ссылок или других элементов, содержащихся в ПРОГРАММНОГО ПРОДУКТА. Чикаго Логика Incorporated не дает никаких гарантий соблюдения любого вреда, который может быть причинен в результате передачи компьютерного вируса, червя, бомба замедленного действия, логическая бомба, или другой такой компьютерной программы. Чикаго Логика Инкорпорейтед дальше явно отказывается от каких-либо гарантий или представлений для авторизованных пользователей или какой-либо третьей стороне.
+
+ 6. ОГРАНИЧЕНИЕ ОТВЕТСТВЕННОСТИ
+
+ Ни в коем случае Чикаго Логика Инкорпорейтед ответственности за любые убытки (включая, но не ограничиваясь, упущенную выгоду, прерывание бизнеса, или потерянной информации) поднимается из Авторизованных Пользователей использования или невозможности использования ПРОГРАММНОГО ПРОДУКТА, даже если Чикаго Логика Инкорпорейтед была предупреждена о возможности таких убытков. Ни в коем случае Чикаго Логика Инкорпорейтед несет ответственности за потерю данных или за косвенные, специальные, случайные, косвенные (включая упущенную выгоду), или другие убытки, связанные с контрактом, невыполнением или иначе. Чикаго Логика Incorporated не несет никакой ответственности в отношении содержания ПРОГРАММНОГО ПРОДУКТА или любой его части, в том числе, но не ограничиваясь ошибки или упущения, содержащиеся в нем, клевета, нарушения прав гласности, конфиденциальности, прав на товарные знаки, прерывание бизнеса, получения травмы , потеря конфиденциальности, моральных прав или раскрытие конфиденциальной информации.
+
+
+ (С) 2009-2013 Чикаго Логика Инк
+ США Запатентованная
+ Все права защищены
+ www.chicagologic.com"</string>
+    <string name="SettingsKeyClickFeedback">Настройки обратной связи</string>
+    <string name="SettingsTitleClickFeedback">Обратная связь</string>
+    <string name="SettingsSummaryClickFeedback">Нажмите обратную связь на нажатия на кнопки.</string>
+    <string name="alternates_for_ai">أآإٱء</string>
+    <string name="alternates_for_as">ئ ى</string>
+    <string name="alternates_for_a">àáâãäåæąā</string>
+    <string name="alternates_for_e">èéêëęěē</string>
+    <string name="alternates_for_i">ìíîïīıï</string>
+    <string name="alternates_for_o">òóôõöœøō</string>
+    <string name="alternates_for_u">ùúûüůū</string>
+    <string name="alternates_for_s">§ßśš</string>
+    <string name="alternates_for_n">ñńņň</string>
+    <string name="alternates_for_c">çćč</string>
+    <string name="alternates_for_l">łļ</string>
+    <string name="alternates_for_z">źżž</string>
+    <string name="alternates_for_y">ýÿ</string>
+    <string name="alternates_for_d">đďð</string>
+    <string name="alternates_for_g">ģğ</string>
+    <string name="alternates_for_r">ŗř</string>
+    <string name="alternates_for_t">ţťŧ</string>
+    <string name="confirmDeleteTitle">Удалить Элис</string>
+    <string name="confirmDelete">Вы уверены, что хотите удалить Элис?</string>
+    <string name="btnContinue">Продолжить</string>
+    <string name="confirmDelete_dialog_button_ok">Ok</string>
+    <string name="confirmDelete_dialog_button_cancel">Отмена</string>
+    <string name="voice_editing_pref_title">Дана</string>
+    <string name="voice_editpref_title">Улучшение голосового редактирования - выделите команду, чтобы улучшить :</string>
+    <string name="preference_voicenable_title">Включить голосовое редактирование</string>
+    <string name="preference_voicenable_summary">Скажите \"удалить предложение\" и др.</string>
+    <string name="preference_language_selection_title">Язык \"речи в текст\"</string>
+    <string name="preference_language_selection_summary">Выбрать язык \"речи в текст\"</string>
+    <string name="preference_voiceediting_selection_title">Улучшение голосовогл редактирования</string>
+    <string name="preference_voiceediting_selection_summary">Адаптация к вашему собственному голосу</string>
+    <string name="btSpeak">Говорить</string>
+    <string name="menu_settings">Настройки</string>
+    <string name="title_activity_voice_recognition">Распознавание голоса</string>
+    <string name="tvTextMatches">Совпадения текста</string>
+    <string name="sNoOfMatches">Нет совпадений</string>
+    <string name="etSearchHint">Речевой намек</string>
+    <string name="SettingsKeyKeyboardLayout">Настройки раскладки клавиатуры</string>
+    <string name="SettingsDialogTitileKeyboardLayout">Выберите раскладку:</string>
+    <string name="SettingsKeySuggestionDict">Настройки предложения</string>
+    <string name="SettingsTitleSuggestionDict">Типы предложения</string>
+    <string name="SettingsSummarySuggestionDict">Установить предпочтительные типы предложения.</string>
+    <string name="SettingsDialogTitileSuggestionDict">Выберите тип предложения:</string>
+    <string name="SettingsKeyboardStyle">Стиль клавиатуры</string>
+    <string name="SettingsTitleKeyboardStyle">Кнопка надписи</string>
+    <string name="SettingsSummaryKeyboardStyle">Стиль Android или Iphone</string>
+    <string name="SettingsDialogTitileKeyboardStyle">Выберите стиль клавиатуры:</string>
+    <string name="preference_keyboard_selection_title">Раскладки клавиатуры</string>
+    <string name="preference_keyboard_selection_summary">QWERTY, кириллица и т.д.</string>
+    <string name="screen_title">Выберите клавиатуру</string>
+    <string name="screen_subtitle">Важно - вы можете выбрать более одной клавиатуры . Если вы это сделаете, вы можете быстро переключать клавиатуры во время набора текста , с помощью удержания \" Свернуть клавиатуру\".</string>
+    <string name="SettingsKeyKeyboardSkins">Настройки скина клавиатуры</string>
+    <string name="KeyboardSkinStyles">Темы</string>
+    <string name="preference_keyboard_skin_summary">Настроить внешний вид клавиатуры</string>
+    <string name="preference_keyboard_skin_dialogtitle">Выбрать тему</string>
+    <string name="preference_keyboard_android_default">Стандарт</string>
+    <string name="preference_keyboard_android_ocean">Океан</string>
+    <string name="preference_keyboard_android_forrest">Лес</string>
+    <string name="preference_keyboard_android_snow">Снег</string>
+    <string name="preference_keyboard_android_fire">Огонь</string>
+    <string name="preference_keyboard_android_voiceonly">Только голос</string>
+    <string name="preference_keyboard_android_green_on_grey">Зеленый на сером</string>
+    <string name="preference_keyboard_android_yellow_on_black">Золотой на черном</string>
+    <string name="preference_keyboard_android_pink_on_white">Розовый на белом</string>
+    <string name="preference_keyboard_android_neon_red">Неоново-красный</string>
+    <string name="preference_keyboard_android_neon_green">Неоново-зеленый</string>
+    <string name="preference_keyboard_android_neon_blue">Неоново-синий</string>
+    <string name="preference_keyboard_android_black_on_white">Черный на белом</string>
+    <string name="preference_keyboard_android_white_on_black">Белый на черном</string>
+    <string name="preference_keyboard_android_red_on_black">Красный на черном</string>
+    <string name="preference_keyboard_android_blue_on_black">Синий на черном</string>
+    <string name="preference_keyboard_android_easy_to_read">Легко читаемый #2</string>
+    <string name="preference_keyboard_android_easy_to_read_black">Легко читаемый #1</string>
+    <string name="preference_keyboard_android_easy_to_read_yellow">Легко читаемый #3</string>
+    <string name="en_word_separators">.,;:!?</string>
+    <string name="preference_key_sound_title">Нажмите на клавишу нажатия</string>
+    <string name="preference_key_sound_summary">Включить звук нажатия</string>
+    <string name="preference_key_volume_duration_title">Громкость нажатия</string>
+    <string name="preference_key_volume_duration_summary">Отрегулировать громкость клавиш</string>
+    <string name="preference_key_volume_duration_message">Уровень громкости</string>
+    <string name="preference_key_vibration_title">Вибрация на клавише нажатия</string>
+    <string name="preference_key_vibration_summary">Включить вибрацию клавиш</string>
+    <string name="preference_key_vibration_duration_title">Интенсивность вибрации</string>
+    <string name="preference_key_vibration_duration_summary">Продолжительность вибрации</string>
+    <string name="preference_key_vibration_duration_message">Продолжительность вибрации</string>
+    <string name="preference_key_height_setting_title">Высота клавиатуры</string>
+    <string name="preference_key_height_setting_summary">Отрегулируйте высоту клавиатуры</string>
+    <string name="preference_preview_title">Предпросмотр</string>
+    <string name="preference_preview_summary">Включить всплывающий предпросмотр</string>
+    <string name="preference_two_spaces_title">Авто предложение</string>
+    <string name="preference_two_spaces_summary">Два пробела или Enter ставит точку</string>
+    <string name="preference_auto_complete_title">Автозавершение</string>
+    <string name="preference_auto_complete_summary">Автоматически завершить слово после нажатия пробела</string>
+    <string name="preference_conversion_menu">Опции предсказания слова</string>
+    <string name="preference_prediction_title">Предсказание слова</string>
+    <string name="preference_prediction_summary">Показать предсказания слова в строке вариантов</string>
+    <string name="preference_correct_spell_title">Исправление ошибок</string>
+    <string name="preference_correct_spell_summary">Показать предсказание слова для коррекци ошибки</string>
+    <string name="preference_input_learning_title">Обучение словам</string>
+    <string name="preference_input_learning_summary">Автоматически запоминать новые сллва</string>
+    <string name="preference_input_confirm_learning_title">Подтверждение обучения</string>
+    <string name="preference_input_confirm_learning_summary">Подтверждение слов, которые нужно запомнить</string>
+    <string name="preference_voice_title">Установить язык голосового ввода</string>
+    <string name="preference_voice_summary">Выберите язык голосового ввода</string>
+    <string name="preference_instruction_title">Операция</string>
+    <string name="preference_instruction_summary">Инструкции, советы и права</string>
+    <string name="preference_installation_title">Установка - Важно</string>
+    <string name="preference_installation_instruction_summary">Нажмите для установки</string>
+    <string name="preference_aboutime_menu">О IME</string>
+    <string name="preference_dictionary_menu">Словарь</string>
+    <string name="preference_dictionary_menu_en">Пользовательский словарь</string>
+    <string name="preference_user_dictionary">Пользовательский словарь</string>
+    <string name="preference_user_dictionary_edit_words_title">Пользовательский словарь</string>
+    <string name="preference_user_dictionary_edit_words_summary">Управление словами в пользовательском словаре</string>
+    <string name="preference_user_dictionary_edit_words_summary_en">Управление словами в пользовательском словаре</string>
+    <string name="preference_learning_dictionary_menu_en">Запоминающий словарь</string>
+    <string name="preference_learning_dictionary_edit_words_summary_en">Управление словами в запоминающем словаре</string>
+    <string name="preference_user_dictionary_clear_learning_title">Очистить запоминающий словарь</string>
+    <string name="preference_user_dictionary_clear_learning_summary">Удалить все слова из запоминающего словаря</string>
+    <string name="preference_user_dictionary_clear_user_title">Очистить пользовательский словарь</string>
+    <string name="preference_user_dictionary_clear_user_summary">Удалить все слова из пользовательского словарч</string>
+    <string name="dialog_button_ok">OK</string>
+    <string name="dialog_button_cancel">Отмена</string>
+    <string name="dialog_button_close">Закрыть</string>
+    <string name="dialog_clear_user_dictionary_message">Очистить пользовательский словарь?</string>
+    <string name="dialog_clear_learning_dictionary_message">ВНИМАНИЕ - удалить все новые слова, которые вы добавили в словарь?</string>
+    <string name="dialog_clear_user_dictionary_done">Очищено</string>
+    <string name="dialog_clear_learning_dictionary_done">Очищено</string>
+    <string name="user_dictionary_list_words">Зарегистрированные слова</string>
+    <string name="user_dictionary_list_words_en">Слова в пользовательском словаре</string>
+    <string name="user_dictionary_edit_words">Редактирование</string>
+    <string name="user_dictionary_title_read">Ввод</string>
+    <string name="user_dictionary_title_candidate">Предложения</string>
+    <string name="user_dictionary_add">Добавить</string>
+    <string name="user_dictionary_edit">Редактирование</string>
+    <string name="user_dictionary_delete">Удалить</string>
+    <string name="user_dictionary_delete_confirm">Удалить выбранное слово?</string>
+    <string name="user_dictionary_delete_complete">Удалено</string>
+    <string name="user_dictionary_delete_fail">Неудачная попытка удалить</string>
+    <string name="user_dictionary_words_duplication_message">Уже зарегистрировано.</string>
+    <string name="user_dictionary_over_max_text_size_message">Длина строки превышает предел.</string>
+    <string name="user_dictionary_creating_wordlist">Загрузка</string>
+    <string name="user_dictionary_init">Удалить все</string>
+    <string name="user_dictionary_prev_button">　≪　</string>
+    <string name="user_dictionary_next_button">　≫　</string>
+    <string name="learning_dictionary_delete_confirm">Удалить %1$S из запоминающего словаря?</string>
+    <string name="learning_dictionary_learn_confirm">Запомнить: %1$S ?</string>
+    <string name="learning_dictionary_list_words_en">Слова в запоминающем словаре</string>
+    <string name="learning_dictionary_title_read">Выученые слова</string>
+    <string name="learning_dictionary_title_learning_word">Выученое слово</string>
+    <string name="button_candidate_select">Выбрать</string>
+    <string name="button_candidate_delete">Удалить выриант</string>
+    <string name="button_candidate_delete_existing">Уменьшить приоритет</string>
+    <string name="button_candidate_cancel">Отмена</string>
+    <string name="key_left_arrow">↤</string>
+    <string name="key_right_arrow">↦</string>
+    <string name="key_space">スペース</string>
+    <string name="key_space_conv">スペース/変換</string>
+    <string name="key_change_mode">文字</string>
+    <string name="key_convert">変換</string>
+    <string name="key_switch_keyboard">KBD</string>
+    <string name="key_12key_A">゛゜ 大小</string>
+    <string name="key_12key_kutoten">、。</string>
+    <string name="key_12key_eisuu_kana">英数カナ</string>
+    <string name="key_12key_alphabet_1">.＠ １</string>
+    <string name="key_12key_alphabet_2">ABC ２</string>
+    <string name="key_12key_alphabet_3">DEF ３</string>
+    <string name="key_12key_alphabet_4">GHI ４</string>
+    <string name="key_12key_alphabet_5">JKL ５</string>
+    <string name="key_12key_alphabet_6">MNO ６</string>
+    <string name="key_12key_alphabet_7">PQRS ７</string>
+    <string name="key_12key_alphabet_8">TUV ８</string>
+    <string name="key_12key_alphabet_9">WXYZ ９</string>
+    <string name="key_12key_alphabet_0">- ０</string>
+    <string name="key_12key_alphabet_A">A/a</string>
+    <string name="key_12key_katakana_1">ア</string>
+    <string name="key_12key_katakana_2">カ</string>
+    <string name="key_12key_katakana_3">サ</string>
+    <string name="key_12key_katakana_4">タ</string>
+    <string name="key_12key_katakana_5">ナ</string>
+    <string name="key_12key_katakana_6">ハ</string>
+    <string name="key_12key_katakana_7">マ</string>
+    <string name="key_12key_katakana_8">ヤ</string>
+    <string name="key_12key_katakana_9">ラ</string>
+    <string name="key_12key_katakana_0">ワ</string>
+    <string name="key_12key_1">あ 1.＠</string>
+    <string name="key_12key_2">か 2 ABC</string>
+    <string name="key_12key_3">さ 3 DEF</string>
+    <string name="key_12key_4">た 4 GHI</string>
+    <string name="key_12key_5">な 5 JKL</string>
+    <string name="key_12key_6">は 6 MNO</string>
+    <string name="key_12key_7">ま 7 PQRS</string>
+    <string name="key_12key_8">や 8 TUV</string>
+    <string name="key_12key_9">ら 9 WXYZ</string>
+    <string name="key_12key_0">わ 0 -</string>
+    <string name="key_qwerty_tyouon">ー</string>
+    <string name="key_qwerty_full_touten">、</string>
+    <string name="key_qwerty_full_kuten">。</string>
+    <string name="key_qwerty_full_question">？</string>
+    <string name="key_qwerty_full_comma">，</string>
+    <string name="key_qwerty_full_period">．</string>
+    <string name="key_qwerty_full_at_sign">＠</string>
+    <string name="key_qwerty_full_number_sign">＃</string>
+    <string name="key_qwerty_full_percent_sign">％</string>
+    <string name="key_qwerty_full_ampersand">＆</string>
+    <string name="key_qwerty_full_asterrisk">＊</string>
+    <string name="key_qwerty_full_plus_sign">＋</string>
+    <string name="key_qwerty_full_minus_sign">－</string>
+    <string name="key_qwerty_full_equal_sign">＝</string>
+    <string name="key_qwerty_kagi_kakko_left">「</string>
+    <string name="key_qwerty_kagi_kakko_right">」</string>
+    <string name="key_qwerty_full_exclamation_mark">！</string>
+    <string name="key_qwerty_full_left_parenthesis">（</string>
+    <string name="key_qwerty_full_right_parenthesis">）</string>
+    <string name="key_qwerty_full_colon">：</string>
+    <string name="key_qwerty_full_semicolon">；</string>
+    <string name="key_qwerty_full_middot">・</string>
+    <string name="key_qwerty_full_thilde">～</string>
+    <string name="key_qwerty_full_double_quotation_sign">”</string>
+    <string name="key_qwerty_full_plus_minus_sign">±</string>
+    <string name="key_qwerty_full_underscore">＿</string>
+    <string name="key_qwerty_full_left_curly_blacket">｛</string>
+    <string name="key_qwerty_full_right_curly_blacket">｝</string>
+    <string name="key_qwerty_full_vertical_bar">｜</string>
+    <string name="key_qwerty_full_less_than_sign">＜</string>
+    <string name="key_qwerty_full_greater_than_sign">＞</string>
+    <string name="key_qwerty_full_left_single_quote">‘</string>
+    <string name="key_qwerty_full_right_single_quote">’</string>
+    <string name="key_qwerty_full_back_slash">＼</string>
+    <string name="key_qwerty_full_dollar_sign">＄</string>
+    <string name="key_qwerty_full_yen_sign">￥</string>
+    <string name="key_qwerty_full_hat">＾</string>
+    <string name="key_qwerty_full_slash">／</string>
+    <string name="key_12key_switch_full_hiragana">あ</string>
+    <string name="key_12key_switch_full_katakana">カ</string>
+    <string name="key_12key_switch_full_alphabet">Ａ</string>
+    <string name="key_12key_switch_full_number">１</string>
+    <string name="key_12key_switch_half_katakana">ｶﾅ</string>
+    <string name="key_12key_switch_half_alphabet">AB</string>
+    <string name="key_12key_switch_half_number">12</string>
+    <string name="key_12key_switch_pinyin">中</string>
+    <string name="key_qwerty_half_comma">､</string>
+    <string name="key_qwerty_half_period">｡</string>
+    <string name="key_qwerty_half_tyouon">ｰ</string>
+    <string name="key_12key_undo">Undo</string>
+    <string name="indicator_caps">CAPS</string>
+    <string name="indicator_alt">ALT</string>
+    <string name="touch_to_continue">Далее</string>
+    <string name="touch_to_try">Попробуйте кнопку ниже.</string>
+    <string name="touch_to_finish">Попробуйте ввести и с помощью клавиатуры!</string>
+    <string name="tip_to_step1"><b>"Как обычная мобильная клавиатура, нажав ○ три раза приведет
+к *C*."</b></string>
+    <string name="tip_to_step2_a"><b>"Например, напишите \"hi\".
+- Нажмите ○ дважды, чтобы пол"</b>учить \"h\"</string>
+    <string name="tip_to_step2_b"><b>- Нажмите → , чтобы перейти впра</b>во</string>
+    <string name="tip_to_step2_c"><b>- Нажмите ○ три раза , чтобы по</b>лучить \"I\"</string>
+    <string name="tip_to_step2_d"><b>- Используйте касание или ↓ , чтоб</b>ы установить слово.</string>
+    <string name="tip_to_step3_c"><b>Вернемся на Английский.</b></string>
+    <string name="tip_to_step4"><b>"Для других режимов ввода (как полной ширины)
+или клавиатуры в ПК стиле, держите ■
+в течение 3 секунд, чтобы "</b>открыть меню ввода.</string>
+    <string name="tip_to_step5"><b>Когда вы закончите ввод, нажмите клавишу \"назад\"(←), чтобы закрыть кла</b>виатуру.</string>
+    <string name="tip_to_step6"><b>Это конец урока.</b></string>
+    <string name="tip_en_to_open_keyboard"><b>Клавиатура открывается всегда, когда вы касаетесь т</b>екстового поля</string>
+    <string name="tip_en_to_close_keyboard"><b>Нажмите кнопку \"назад\" (←), чтобы закры</b>ть клавиатуру.</string>
+    <string name="tip_en_end_of_tutorial"><b>Это конец урока.</b></string>
+    <string name="preference_intallation_title">Big Buttons Keyboard Beta 4.0.1</string>
+    <string name="preference_installation_step1">Шаг 1 из 2</string>
+    <string name="preference_installation_activation">"УСТАНОВКА - Big Buttond Keyboard Beta
+
+Шаг 1 из 2 : Нажмите кнопку \"Язык и клавиатура\" ниже , затем нажмите \"Big Buttons Keyboard Beta\". Не обращайте внимания на страшное предупреждение, BB не является ключевым регистратор - проверьте наши права. После нажатия на флажок , не забудьте нажать ​\"Назад\" , чтобы вернуться к этому экрану для шага 2 ниже !"</string>
+    <string name="preference_language_title">Язык и клавиатура</string>
+    <string name="preference_language_title_new">Язык и клавиатура</string>
+    <string name="preference_language_setasdefault_title">Выберите способ ввода</string>
+    <string name="preference_installation_step2">ШАГ 442 из 2:</string>
+    <string name="preference_change_inputmethod">Измените способ ввода на \"Big Buttons Keyboard Beta\"</string>
+    <string name="preference_installation_inputmethod">Шаг 2 из 2 : удерживайте поле ввода ниже, а затем выберите \"Режим ввода\", затем \"Big Buttons Keyboard Beta\"</string>
+    <string name="preference_installation_default">Шаг 2 из 2 : Нажмите кнопку ниже, затем выберите \"Big Buttons Keyboard Beta\"</string>
+    <string name="preference_installation_finnished">Вы готовы к работе! Нажмите ​​кнопку \"Назад\" и начните пользоваться вашей новой клавиатурой!</string>
+    <string name="preference_installation_instractions_for_honeycomb">Нажмите кнопку \"язык и ввод\" ниже. Затем нажмите кнопку \"Настроить способ ввода\" и выберите \"Big Buttons Keyboard Beta\". Затем нажмите ​​кнопку \"Назад\" и нажмите \"Текущий способ ввода\" и выберите \"Big Buttons Keyboard Beta\"</string>
+    <string name="SettingsVoiceLayout">Выберите текущий голос</string>
+    <string name="preference_speech_menu">Опции \"голос в текст\"</string>
+    <string name="SettingsTitleVoiceLayout">Разрешить слитную речь</string>
+    <string name="SettingsSummaryVoiceLayout">Используйте для длинных фраз</string>
+    <string name="SettingsDialogTitileVoiceLayout">Выберите опции голоса:</string>
+    <string name="voice_listening">Говорите</string>
+    <string name="voice_working">Обработка</string>
+    <string name="voice_initializing" />
+    <string name="voice_error">Ошибка. Попробуйте снова</string>
+    <string name="voice_network_error">Не удалось подключиться</string>
+    <string name="voice_too_much_speech">Ошибка. Слишком много слов</string>
+    <string name="voice_audio_error">Аудио проблема</string>
+    <string name="voice_server_error">Ошибка сервера</string>
+    <string name="voice_speech_timeout">Нет слышимой речи</string>
+    <string name="voice_no_match">Не найдено совпадений</string>
+    <string name="voice_not_installed">Голосовой поиск не установлен</string>
+    <string name="cancel">Отмена</string>
+    <string name="ok">OK</string>
+    <string name="voice_input">Голосовой ввод</string>
+    <string name="voice_mode_main">0</string>
+    <string name="voice_mode_symbols">1</string>
+    <string name="voice_mode_off">2</string>
+    <string name="auto_submit">Авто представить после голосом</string>
+    <string name="auto_submit_summary">Автоматическое нажатие Enter при поиске или переходе на следующее поле.</string>
+</resources>

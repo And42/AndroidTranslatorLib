@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="~">Navigate home</string>
+    <string name="!">%1$s, %2$s</string>
+    <string name="@">%1$s, %2$s, %3$s</string>
+    <string name="#">Navigate up</string>
+    <string name="$">More options</string>
+    <string name="%">Done</string>
+    <string name="^">See all</string>
+    <string name="&amp;">Choose an app</string>
+    <string name="(">OFF</string>
+    <string name=")">ON</string>
+    <string name="_">Search…</string>
+    <string name="-">Clear query</string>
+    <string name="+">Search query</string>
+    <string name="=">Search</string>
+    <string name="`">Submit query</string>
+    <string name="{">Voice search</string>
+    <string name="}">Share with</string>
+    <string name="[">Share with %s</string>
+    <string name="]">Collapse</string>
+    <string name=";">Search</string>
+    <string name="'">999+</string>
+    <string name="~~">About</string>
+    <string name="~!">Remove Ads</string>
+    <string name="~@">Animation</string>
+    <string name="~#">Apply</string>
+    <string name="~$">Apps</string>
+    <string name="~%">Uret Patcher</string>
+    <string name="~^">Enable AutoUpdate</string>
+    <string name="~&amp;">Enable 32 Bit Instruction Set</string>
+    <string name="~(">Cleaner</string>
+    <string name="~)">Change Animation Of Apps List</string>
+    <string name="~_">Check For Updates Automatically</string>
+    <string name="~-">"Use 32 Bit Instruction Set On 64 Bit Firmwares For Patching
+(Only Can Be Selected On 64 Bit Firmwares,Patcher Uses 64 Bit Instruction Set By Default On 64 Bit Firmwares For Patching,Enable This If Patch Does Not Result In Patching On 64 Bit Firmwares As Some Firmwares Uses 32 Bit Instruction Set Even Its 64 Bit Firmware)"</string>
+    <string name="~+">Reset Settings Of Patcher</string>
+    <string name="~=">Export Settings To Device</string>
+    <string name="~`">Change Font</string>
+    <string name="~{">Changelogs</string>
+    <string name="~}">"Hide Patcher From Other Apps
+(Requires Xposed Module Enabled And Rebooted)"</string>
+    <string name="~[">Hide Floating Action Button</string>
+    <string name="~]">"Hide Patching Tools Like Lucky Patcher, Freedom, Game Killer From Other Apps
+(Requires Xposed Module Enabled And Rebooted)"</string>
+    <string name="~;">Import Settings From Device</string>
+    <string name="~'">Change Language</string>
+    <string name="!~">Clear</string>
+    <string name="!!">Reset Settings</string>
+    <string name="!@">"Your Firmware Is 64 Bit.
+
+Patcher Uses 64 Bit Instruction Set By Default On 64 Bit Firmwares For Patching But Some Firmwares Uses 32 Bit Instruction Set Even Its 64 Bit Firmware So If Patch Does Not Result In Patching On 64 Bit Firmwares Then You Can Enable 32 Bit Instruction Set Available In Patcher's Settings Then Try Patching Again."</string>
+    <string name="!#">Change Orientation</string>
+    <string name="!$">Change Sort Order Of Apps</string>
+    <string name="!%">Haptic Feedback</string>
+    <string name="!^">"Don't Show Me Again"</string>
+    <string name="!&amp;">Donate</string>
+    <string name="!(">Processing Done Check Status</string>
+    <string name="!)">Download</string>
+    <string name="!_">Exit</string>
+    <string name="!-">Export Settings</string>
+    <string name="!+">Extra</string>
+    <string name="!=">Find Me</string>
+    <string name="!`">Font</string>
+    <string name="!{">General</string>
+    <string name="!}">Hide Patcher</string>
+    <string name="![">Hide FAB</string>
+    <string name="!]">Hide Patching Tools</string>
+    <string name="!;">Hook</string>
+    <string name="!'">Help</string>
+    <string name="@~">Import Settings</string>
+    <string name="@!">Select Internal Storage Location</string>
+    <string name="@@">"If You Are Not Sure Click 'CANCEL' As It Is Almost Correct.
+
+Internal Storage Location Is Not Set
+
+As Per Our Calculation Your Device Internal Storage Location Is :- 
+'%1$s'
+
+If It Is Correct,Then Press 'CANCEL' Or If It Is Wrong Then Press 'SELECT LOCATION' To Select Root Folder Of Your Internal Storage Manually.
+
+This Location Will Be Used For Patcher Work.
+PS Location Can Also Be Reselect In Settings.
+
+NOTE :- Selecting WRONG Location May Lead To Crashes Or Patcher May Fail In Some Tasks."</string>
+    <string name="@#">"Internet Is Not Available Can't Proceed.."</string>
+    <string name="@$">Internal Storage Location</string>
+    <string name="@%">Language</string>
+    <string name="@^">Launch</string>
+    <string name="@&amp;">Please Wait Let It Check Server..</string>
+    <string name="@(">Emulation</string>
+    <string name="@)">Dump Logs</string>
+    <string name="@_">64 Bit Firmware Detected</string>
+    <string name="@-">Orientation</string>
+    <string name="@+">Other</string>
+    <string name="@=">Patch</string>
+    <string name="@`">Permissions Required</string>
+    <string name="@{">Please Grant All Permissions To Use This Option...</string>
+    <string name="@}">Please Restart The App For Changes To Take Effect!!</string>
+    <string name="@[">Patch Menu</string>
+    <string name="@]">"Note :- Unpatch Can Only Be Done In 'Code Patch','License Patch' And 'Hook Patch',So It Is Not Available In 'Dalvik Patch','Module Patch','Native Patch' And 'Save Patch'.
+
+Remember :- Before Updating To New Version Click Unpatch And Then Update And Patch Again (Required Only In Code Patch)."</string>
+    <string name="@;">Rebooter</string>
+    <string name="@'">Reload</string>
+    <string name="#~">Random</string>
+    <string name="#!">Select Apps To Emulate</string>
+    <string name="#@">Search</string>
+    <string name="##">Please Select Internal Storage Location First Then Click Option Again To Proceed..</string>
+    <string name="#$">Select Apps</string>
+    <string name="#%">Select Location</string>
+    <string name="#^">Find On Play Store</string>
+    <string name="#&amp;">Settings</string>
+    <string name="#(">"Settings Reset Successfully
+Application Will Reload Now"</string>
+    <string name="#)">Settings Exported To</string>
+    <string name="#_">"Can't Export Settings As Directory Is Not Writable
+Are You Sure Internal Location You Selected Is Right ?"</string>
+    <string name="#-">"Settings Imported Successfully
+Application Will Reload Now"</string>
+    <string name="#+">"No Settings Backup Found To Import
+Are You Sure Internal Location You Selected Is Right ?"</string>
+    <string name="#=">Please Soft REBOOT The Device For Changes To Take Effect Properly!!</string>
+    <string name="#`">Show Me Again</string>
+    <string name="#{">Sort</string>
+    <string name="#}">Spoof</string>
+    <string name="#[">Remove Stored Purchases</string>
+    <string name="#]">Support Patch</string>
+    <string name="#;">Tools</string>
+    <string name="#'">Troubleshooting</string>
+    <string name="$~">Universal Patch</string>
+    <string name="$!">Unpatch</string>
+    <string name="$@">Check For Updates</string>
+    <string name="$#">Vibration</string>
+    <string name="$$">sans-serif</string>
+    <string name="$%">sans-serif-medium</string>
+    <string name="$^">sans-serif-medium</string>
+    <string name="$&amp;">sans-serif</string>
+    <string name="$(">sans-serif</string>
+    <string name="$)">sans-serif</string>
+    <string name="$_">sans-serif</string>
+    <string name="$-">sans-serif-light</string>
+    <string name="$+">sans-serif</string>
+    <string name="$=">sans-serif</string>
+    <string name="$`">sans-serif</string>
+    <string name="${">sans-serif-medium</string>
+    <string name="$}">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="$[">android.support.design.widget.BottomSheetBehavior</string>
+    <string name="$]">%1$d / %2$d</string>
+</resources>
