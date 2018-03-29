@@ -81,6 +81,7 @@
     <Compile Include="Interfaces\Strings\IXmlTextString.cs" />
     <Compile Include="Properties\Annotations.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utils\StringUtils.cs" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Interfaces\Files\IEditableFile.Generic.cs" />

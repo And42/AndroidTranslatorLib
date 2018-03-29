@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using AndroidTranslator.Annotations;
 using AndroidTranslator.Interfaces.Strings;
+using AndroidTranslator.Utils;
 
 namespace AndroidTranslator.Classes.Strings
 {
@@ -70,17 +71,17 @@ namespace AndroidTranslator.Classes.Strings
         protected OneString(string name, string oldText)
         {
             Name = name;
-            _oldText = oldText;
+            _oldText = StringUtils.FormatLineEndings(oldText);
         }
 
         protected void SetOldText(string text)
         {
-            SetProperty(ref _oldText, text, nameof(OldText));
+            SetProperty(ref _oldText, StringUtils.FormatLineEndings(text), nameof(OldText));
         }
 
         protected void SetNewText(string text)
         {
-            SetProperty(ref _newText, text, nameof(NewText));
+            SetProperty(ref _newText, StringUtils.FormatLineEndings(text), nameof(NewText));
         }
 
         /// <summary>

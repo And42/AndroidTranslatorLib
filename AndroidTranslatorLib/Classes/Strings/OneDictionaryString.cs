@@ -2,6 +2,7 @@
 using System.Xml.Linq;
 using AndroidTranslator.Classes.Strings;
 using AndroidTranslator.Interfaces.Strings;
+using AndroidTranslator.Utils;
 
 // ReSharper disable once CheckNamespace
 namespace AndroidTranslator
@@ -31,9 +32,11 @@ namespace AndroidTranslator
             get => _oldText;
             set
             {
-                if (SetProperty(ref _oldText, value, nameof(OldText)))
+                var formatted = StringUtils.FormatLineEndings(value);
+
+                if (SetProperty(ref _oldText, formatted, nameof(OldText)))
                 {
-                    _node.SetAttributeValue("from", value);
+                    _node.SetAttributeValue("from", formatted);
                     _isChanged = true;
                 }
             }
@@ -49,9 +52,11 @@ namespace AndroidTranslator
             get => _newText;
             set
             {
-                if (SetProperty(ref _newText, value, nameof(NewText)))
+                var formatted = StringUtils.FormatLineEndings(value);
+
+                if (SetProperty(ref _newText, formatted, nameof(NewText)))
                 {
-                    _node.SetAttributeValue("to", value);
+                    _node.SetAttributeValue("to", formatted);
                     _isChanged = true;
                 }
             }
@@ -87,17 +92,6 @@ namespace AndroidTranslator
 
                 _oldText = from;
                 _newText = to;
-
-                /*_node = xDoc.CreateElement("translate");
-                XmlAttribute fromAttr = xDoc.CreateAttribute("from");
-                fromAttr.Value = from;
-                XmlAttribute toAttr = xDoc.CreateAttribute("to");
-                toAttr.Value = to;
-                // ReSharper disable once PossibleNullReferenceException
-                _node.Attributes.Append(fromAttr);
-                _node.Attributes.Append(toAttr);
-                // ReSharper disable once PossibleNullReferenceException
-                xDoc.DocumentElement.AppendChild(_node);*/
             }
             else
             {
@@ -109,12 +103,12 @@ namespace AndroidTranslator
                 if (fromAttrib == null)
                     _node.SetAttributeValue("from", _oldText = from);
                 else
-                    _oldText = fromAttrib.Value;
+                    _oldText = StringUtils.FormatLineEndings(fromAttrib.Value);
 
                 if (toAttrib == null)
                     _node.SetAttributeValue("to", _newText = to);
                 else
-                    _newText = toAttrib.Value;
+                    _newText = StringUtils.FormatLineEndings(toAttrib.Value);
             }
 
             IsOldTextReadOnly = false;

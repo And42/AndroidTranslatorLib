@@ -24,7 +24,8 @@ namespace AndroidTranslator.Classes.Strings
         /// <inheritdoc cref="OneXmlString.SaveChanges" />
         public override void SaveChanges()
         {
-            if (!IsChanged) return;
+            if (!IsChanged)
+                return;
 
             _node.InnerText = NewText;
 

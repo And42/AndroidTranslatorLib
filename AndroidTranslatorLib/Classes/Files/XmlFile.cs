@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
+using System.Text.RegularExpressions;
 using System.Xml;
 using AndroidTranslator.Classes.Exceptions;
 using AndroidTranslator.Classes.Strings;
@@ -15,17 +16,18 @@ namespace AndroidTranslator.Classes.Files
     /// </summary>
     public class XmlFile : EditableFile<IOneXmlString>, IXmlFile
     {
+        private static readonly string[] XmlDefaultStrings =
+        {
+            ".*:text$", ".*:title$", ".*:summary$", ".*:dialogTitle$",
+            ".*:summaryOff$", ".*:summaryOn$", "^value$"
+        };
+
         /// <summary>
         /// Правила xml
         /// </summary>
-        public static List<string> XmlRules { get; set; } =
-            new List<string>
-            {
-                "android:text", "android:title", "android:summary", "android:dialogTitle",
-                "android:summaryOff", "android:summaryOn", "value"
-            };
+        public static List<Regex> XmlRules { get; set; } = XmlDefaultStrings.Select(it => new Regex(it)).ToList();
 
-        private readonly List<string> _xmlRules;
+        private readonly List<Regex> _xmlRules;
         private XmlDocument _xDoc;
 
         /// <summary>
@@ -59,11 +61,11 @@ namespace AndroidTranslator.Classes.Files
         /// <param name="fileName">Полный путь к файлу</param>
         /// <param name="xmlRules">Правила для текстовых строк</param>
         /// <param name="loadTextStrings">Загружать ли текстовые строки</param>
-        public XmlFile(string fileName, List<string> xmlRules = null, bool loadTextStrings = false)
+        public XmlFile(string fileName, List<Regex> xmlRules = null, bool loadTextStrings = false)
         {
             FileName = fileName ?? throw new ArgumentNullException(nameof(fileName));
 
-            _xmlRules = xmlRules ?? new List<string>();
+            _xmlRules = xmlRules ?? new List<Regex>();
             FileName = fileName;
             LoadTextStrings = loadTextStrings;
 
@@ -173,7 +175,7 @@ namespace AndroidTranslator.Classes.Files
             }
         }
 
-        private static IEnumerable<XmlAttributeString> GetAttributeStrings(XmlNode node, IList<string> attributeNames)
+        private static IEnumerable<XmlAttributeString> GetAttributeStrings(XmlNode node, IList<Regex> attributeNames)
         {
             var result = new List<XmlAttributeString>();
 
@@ -182,7 +184,7 @@ namespace AndroidTranslator.Classes.Files
             return result;
         }
 
-        private static void _getAttributeStrings(XmlNode node, IList<string> attributeNames, ref List<XmlAttributeString> result, IEnumerable<int> navigationList, int pos)
+        private static void _getAttributeStrings(XmlNode node, IList<Regex> attributeNames, ref List<XmlAttributeString> result, IEnumerable<int> navigationList, int pos)
         {
             var navList = new List<int>(navigationList);
 
@@ -200,7 +202,7 @@ namespace AndroidTranslator.Classes.Files
                         // Ускорение в полтора раза
                         // ReSharper disable once LoopCanBeConvertedToQuery
                         foreach (var name in attributeNames)
-                            if (name == attrib.Name)
+                            if (name.IsMatch(attrib.Name))
                             {
                                 if (attrib.InnerText.Length > 0 && attrib.InnerText[0] != '@')
                                     result.Add(new XmlAttributeString(attrib, new List<int>(navList) { i }, i2));
