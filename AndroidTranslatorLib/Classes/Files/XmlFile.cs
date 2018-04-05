@@ -113,16 +113,8 @@ namespace AndroidTranslator.Classes.Files
                             break;
                     }
                 }
-                    //list.Add(new XmlTextString(node, new List<int>(1) { i++ }));
             }
-            /*else
-            if (new[] { "arrays.xml", "plurals.xml" }.Any(s => s == Path.GetFileName(FileName)))
-            {
-                var items = GetTextStrings(xDoc.DocumentElement);
-                foreach (var item in items)
-                    list.Add(item);
-            }
-            else*/
+            else
             {
                 var items = GetAttributeStrings(_xDoc.DocumentElement, _xmlRules);
                 list.AddRange(items);
