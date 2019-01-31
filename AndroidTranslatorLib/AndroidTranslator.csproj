@@ -9,7 +9,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>AndroidTranslator</RootNamespace>
     <AssemblyName>AndroidTranslator</AssemblyName>
-    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
   </PropertyGroup>
@@ -42,6 +42,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Xml" />
@@ -85,6 +86,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Interfaces\Files\IEditableFile.Generic.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LongPaths\LongPaths\LongPaths.csproj">
+      <Project>{593a2d73-7513-498e-8f8a-554742c92ed7}</Project>
+      <Name>LongPaths</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

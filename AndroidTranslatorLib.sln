@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AndroidTranslator", "Androi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AndroidTranslatorLibTest", "AndroidTranslatorLibTests\AndroidTranslatorLibTest.csproj", "{E67881AE-2C12-4681-81A8-4A052A268716}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongPaths", "LongPaths\LongPaths\LongPaths.csproj", "{593A2D73-7513-498E-8F8A-554742C92ED7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{E67881AE-2C12-4681-81A8-4A052A268716}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E67881AE-2C12-4681-81A8-4A052A268716}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E67881AE-2C12-4681-81A8-4A052A268716}.Release|Any CPU.Build.0 = Release|Any CPU
+		{593A2D73-7513-498E-8F8A-554742C92ED7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{593A2D73-7513-498E-8F8A-554742C92ED7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{593A2D73-7513-498E-8F8A-554742C92ED7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{593A2D73-7513-498E-8F8A-554742C92ED7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

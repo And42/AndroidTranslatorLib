@@ -6,6 +6,7 @@ using System.Text;
 using AndroidTranslator.Classes.Strings;
 using AndroidTranslator.Interfaces.Files;
 using AndroidTranslator.Interfaces.Strings;
+using LongPaths.Logic;
 
 namespace AndroidTranslator.Classes.Files
 {
@@ -82,7 +83,7 @@ namespace AndroidTranslator.Classes.Files
             foreach (var item in SpecDetails)
                 item.SaveChanges(_fileLines);
 
-            File.WriteAllLines(FileName, _fileLines, new UTF8Encoding(false));
+            LFile.WriteAllLines(FileName, _fileLines, new UTF8Encoding(false));
         }
         //private string textOfFile;
 
@@ -93,7 +94,7 @@ namespace AndroidTranslator.Classes.Files
         {
             var list = new List<IOneSmaliString>();
 
-            _fileLines = File.ReadAllLines(FileName, FileEncoding);
+            _fileLines = LFile.ReadAllLines(FileName, FileEncoding);
 
             for (int i = 0; i < _fileLines.Length; i++)
             {
@@ -159,7 +160,7 @@ namespace AndroidTranslator.Classes.Files
             stringsLoaded = true;
 
             var lst = new List<OneSmaliString>();
-            textOfFile = File.ReadAllText(FileName, new UTF8Encoding(false));
+            textOfFile = LFile.ReadAllText(FileName, new UTF8Encoding(false));
             var constStringsList = new[] { "const-string v", "," };
             var finalStringsList = new[] { ":Ljava/lang/String;", "=" };
             var valuesList = new[] { constStringsList, finalStringsList };
@@ -229,7 +230,7 @@ namespace AndroidTranslator.Classes.Files
                 }
             }
 
-            //File.WriteAllText(FileName, textOfFile, new UTF8Encoding(false));
+            //LFile.WriteAllText(FileName, textOfFile, new UTF8Encoding(false));
         }*/
     }
 }
