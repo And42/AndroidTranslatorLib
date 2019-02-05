@@ -41,6 +41,10 @@
     </AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="LongPaths, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libraries\LongPaths.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
@@ -86,12 +90,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Interfaces\Files\IEditableFile.Generic.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\LongPaths\LongPaths\LongPaths.csproj">
-      <Project>{593a2d73-7513-498e-8f8a-554742c92ed7}</Project>
-      <Name>LongPaths</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
