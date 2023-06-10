@@ -3,14 +3,14 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <OutputType>Library</OutputType>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>1.6.1.0</Version>
+    <Version>1.6.1.1</Version>
     <Title>AndroidTranslator</Title>
     <Authors>Andrey Skobtsov</Authors>
     <Copyright>Andrey Skobtsov</Copyright>
     <PackageProjectUrl>https://github.com/And42/AndroidTranslatorLib</PackageProjectUrl>
     <RepositoryUrl>https://github.com/And42/AndroidTranslatorLib</RepositoryUrl>
-    <AssemblyVersion>1.6.1.0</AssemblyVersion>
-    <FileVersion>1.6.1.0</FileVersion>
+    <AssemblyVersion>1.6.1.1</AssemblyVersion>
+    <FileVersion>1.6.1.1</FileVersion>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
     <PackageId>And42.AndroidTranslator</PackageId>
   </PropertyGroup>
