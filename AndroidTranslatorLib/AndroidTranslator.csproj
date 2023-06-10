@@ -12,11 +12,4 @@
   <PropertyGroup>
     <AssemblyOriginatorKeyFile></AssemblyOriginatorKeyFile>
   </PropertyGroup>
-  <ItemGroup>
-    <Reference Include="LongPaths, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libraries\LongPaths.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Configuration" />
-  </ItemGroup>
 </Project>

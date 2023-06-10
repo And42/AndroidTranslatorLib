@@ -1,2 +1,0 @@
-﻿C:\Files\Programming\C#\library_repos\LongPaths\LongPaths\bin\Release\LongPaths.dll
-only_dll

@@ -2,7 +2,6 @@
 using System.Text;
 using AndroidTranslator.Classes.Exceptions;
 using AndroidTranslator.Classes.Files;
-using LongPaths.Logic;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace AndroidTranslatorLibTest
@@ -14,7 +13,7 @@ namespace AndroidTranslatorLibTest
         {
             var tempFile = Path.GetTempFileName();
 
-            LFile.WriteAllText(tempFile, content, Encoding.UTF8);
+            File.WriteAllText(tempFile, content, Encoding.UTF8);
 
             return tempFile;
         }
@@ -23,7 +22,7 @@ namespace AndroidTranslatorLibTest
         {
             var tempFile = Path.GetTempFileName();
 
-            LFile.WriteAllBytes(tempFile, content);
+            File.WriteAllBytes(tempFile, content);
 
             return tempFile;
         }
@@ -37,7 +36,7 @@ namespace AndroidTranslatorLibTest
 
             Assert.AreEqual(318, xfile.Details.Count);
 
-            LFile.Delete(tempFile);
+            File.Delete(tempFile);
         }
 
         [TestMethod]
@@ -53,7 +52,7 @@ namespace AndroidTranslatorLibTest
             Assert.AreEqual("0", xfile.Details[2].OldText);
             Assert.AreEqual("1", xfile.Details[3].OldText);
 
-            LFile.Delete(tempFile);
+            File.Delete(tempFile);
         }
 
         [TestMethod]
@@ -84,8 +83,8 @@ namespace AndroidTranslatorLibTest
             Assert.AreEqual("hello", dict.Details[0].OldText);
             Assert.AreEqual("more trees", dict.Details[0].NewText);
 
-            LFile.Delete(tempFile);
-            LFile.Delete(tempDict);
+            File.Delete(tempFile);
+            File.Delete(tempDict);
         }
 
         [TestMethod]
@@ -95,13 +94,13 @@ namespace AndroidTranslatorLibTest
 
             AssertUtils.Throws<XmlParserException>(() => XmlFile.Create(tempFile));
 
-            LFile.Delete(tempFile);
+            File.Delete(tempFile);
 
             tempFile = CreateTempSmali(TestResources.test_4_log_smali);
 
             AssertUtils.NotThrows(() => new SmaliFile(tempFile));
 
-            LFile.Delete(tempFile);
+            File.Delete(tempFile);
         }
 
         [TestMethod]
@@ -113,7 +112,7 @@ namespace AndroidTranslatorLibTest
 
             Assert.AreEqual(42, smali.Details.Count);
 
-            LFile.Delete(tempFile);
+            File.Delete(tempFile);
         }
 
         [TestMethod]
@@ -125,7 +124,7 @@ namespace AndroidTranslatorLibTest
 
             Assert.AreEqual(147, xml.Details.Count);
 
-            LFile.Delete(tempFile);
+            File.Delete(tempFile);
         }
     }
 }
