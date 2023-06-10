@@ -2,7 +2,17 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <OutputType>Library</OutputType>
-    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>1.6.1.0</Version>
+    <Title>AndroidTranslator</Title>
+    <Authors>Andrey Skobtsov</Authors>
+    <Copyright>Andrey Skobtsov</Copyright>
+    <PackageProjectUrl>https://github.com/And42/AndroidTranslatorLib</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/And42/AndroidTranslatorLib</RepositoryUrl>
+    <AssemblyVersion>1.6.1.0</AssemblyVersion>
+    <FileVersion>1.6.1.0</FileVersion>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <PackageId>And42.AndroidTranslator</PackageId>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DocumentationFile>bin\Release\AndroidTranslator.xml</DocumentationFile>
@@ -12,4 +22,12 @@
   <PropertyGroup>
     <AssemblyOriginatorKeyFile></AssemblyOriginatorKeyFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <InternalsVisibleTo Include="AndroidTranslatorLibTest" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <None Include="../LICENSE.txt" Pack="true" PackagePath="" />
+  </ItemGroup>
 </Project>
